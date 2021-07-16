@@ -1,0 +1,50 @@
+$textcolor:red;
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
+$CY: yellow;
+*{
+    margin: 1px;
+    padding: 5px;
+    font-family: 'Kanit', sans-serif;
+
+    
+}
+body{
+    background-image: radial-gradient(circle, black, rgb(19, 19, 18), rgb(61, 61, 61));
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    .tx{
+        
+        border-radius: 5px;
+        color: black;
+        font-weight: bold;
+        background:$CY;
+    }
+    
+    input{
+        color: $CY;
+        background-color: black;
+    }
+    select{
+        background-color: black;
+        color: yellow;
+    }
+    option{
+        color: $CY;
+        background-color: black;
+    }
+
+}
+input{
+    background-color: black;
+    color: yellow;
+    text-align: center;
+
+    
+}
+.center{
+    text-align: center;
+}
+
